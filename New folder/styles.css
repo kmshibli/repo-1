@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar goes here */
+.nav-div {
+    border: 1px solid black;
+}
+.nav-div nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.nav-div > nav > .ten-ms-logo-div > .ten-ms-logo{
+    /* border: 1px solid blue; */
+    height: 50px;
+    margin: 15px 35px 15px 50px;
+}
+.nav-div > nav > .ten-ms-nav-ul-div > .ten-ms-nav-ul{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 22px;
+    padding: 10px 60px 10px 60px;
+}
+.nav-div > nav > .ten-ms-nav-ul-div > .ten-ms-nav-ul > li {
+    /* border: 1px solid green; */
+    display: flex;
+    margin: 0 25px 0 25px;
+}
+.nav-div > nav > .ten-ms-nav-btn-div{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    /* width: 350px; */
+}
+.nav-div > nav > .ten-ms-nav-btn-div > button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.nav-div > nav > .ten-ms-nav-btn-div > .ten-ms-hotline-number {
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
+    color: rgba(19, 204, 99, 0.779);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin: 0px 20px 0 20px;
+    width: 110px;
+}
+.nav-div > nav > .ten-ms-nav-btn-div > .ten-ms-login-btn {
+    background-color: rgba(19, 204, 99, 0.779);
+    color: white;
+    border: none;
+}
